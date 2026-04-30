@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link2, Sparkles, LogOut, Loader2, CheckCircle2, AlertCircle, Trash2, Globe, ListOrdered, X, Star, Check } from 'lucide-react';
+import { Link2, Sparkles, LogOut, Loader2, Trash2, Globe, ListOrdered, X, Star, Check } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../context/AuthContext';
 
